@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* styling for body */
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color:#94e1e9;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Geneva, Verdana, sans-serif;
+  }
+/* styling for container div */
+  .container {
+    padding: 1rem;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+    /* border-radius: 30px; */
+   
+  }
+  /* for heading */
+.main h1{
+   color: black;
+   font-size: 3rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.timmer p{
+   background-color: black;
+   border-radius: 40px;
+   margin: 15px 0px;
+}
+/* for all button */
+.all-button button{
+  cursor: pointer;
+}
+
+  #timeDisplay {
+    padding: 0.5rem 0;
+    font-size: 2rem;
+  }
+
+  h1,
+  p {
+    color: #f8f8f8;
+  }
+/* styling for all button */
+  button {
+    padding: 0.3rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 30px;
+    border: 1px solid #f8f8f8;
+    box-shadow: none;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+/* hover effect on button */
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f8f8f8;
+  }
